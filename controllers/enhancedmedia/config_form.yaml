@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Enhanced Media
+
+# Model Form Field configuration
+form: $/nexxa/enhancedmedia/models/enhancedmedia/fields.yaml
+
+# Model Class name
+modelClass: Nexxa\Enhancedmedia\Models\EnhancedMedia
+
+# Default redirect location
+defaultRedirect: nexxa/enhancedmedia/enhancedmedia
+
+# Create page
+create:
+    title: Create Enhanced Media
+    redirect: nexxa/enhancedmedia/enhancedmedia/update/:id
+    redirectClose: nexxa/enhancedmedia/enhancedmedia
+
+# Update page
+update:
+    title: Edit Enhanced Media
+    redirect: nexxa/enhancedmedia/enhancedmedia
+    redirectClose: nexxa/enhancedmedia/enhancedmedia
+
+# Preview page
+preview:
+    title: Preview Enhanced Media

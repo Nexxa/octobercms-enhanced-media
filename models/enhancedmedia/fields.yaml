@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    label:
+        label: Label
+        disabled: false
+    title:
+        label: Filename
+        disabled: false
+        type: mediafinder
+        mode: file
