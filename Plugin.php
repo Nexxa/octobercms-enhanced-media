@@ -77,7 +77,7 @@ class Plugin extends PluginBase
     {
         return [
             'filters' => [
-                'media_url' => [$this, 'enhancedMedia']
+                'enhanced_media' => [$this, 'enhancedMedia']
             ]
         ];
     }
